@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		D2A780891FB59C1600BE7CE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A780881FB59C1600BE7CE9 /* AppDelegate.m */; };
 		D2A7808C1FB59C1600BE7CE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A7808B1FB59C1600BE7CE9 /* ViewController.m */; };
-		D2A7808F1FB59C1600BE7CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A7808D1FB59C1600BE7CE9 /* Main.storyboard */; };
 		D2A780911FB59C1600BE7CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A780901FB59C1600BE7CE9 /* Assets.xcassets */; };
-		D2A780941FB59C1600BE7CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A780921FB59C1600BE7CE9 /* LaunchScreen.storyboard */; };
 		D2A780971FB59C1600BE7CE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A780961FB59C1600BE7CE9 /* main.m */; };
 		D2A780A11FB59C1700BE7CE9 /* HJRatingViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A780A01FB59C1700BE7CE9 /* HJRatingViewDemoTests.m */; };
 		D2A780AC1FB59C1700BE7CE9 /* HJRatingViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A780AB1FB59C1700BE7CE9 /* HJRatingViewDemoUITests.m */; };
+		D2A780BC1FB59C7200BE7CE9 /* HJRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A780BB1FB59C7200BE7CE9 /* HJRatingView.m */; };
+		D2A780C61FB935E800BE7CE9 /* RatingImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A780C51FB935E800BE7CE9 /* RatingImages.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +40,7 @@
 		D2A780881FB59C1600BE7CE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D2A7808A1FB59C1600BE7CE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D2A7808B1FB59C1600BE7CE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D2A7808E1FB59C1600BE7CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2A780901FB59C1600BE7CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2A780931FB59C1600BE7CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2A780951FB59C1600BE7CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2A780961FB59C1600BE7CE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2A7809C1FB59C1700BE7CE9 /* HJRatingViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJRatingViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +49,9 @@
 		D2A780A71FB59C1700BE7CE9 /* HJRatingViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJRatingViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A780AB1FB59C1700BE7CE9 /* HJRatingViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJRatingViewDemoUITests.m; sourceTree = "<group>"; };
 		D2A780AD1FB59C1700BE7CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A780BA1FB59C7200BE7CE9 /* HJRatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJRatingView.h; sourceTree = "<group>"; };
+		D2A780BB1FB59C7200BE7CE9 /* HJRatingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJRatingView.m; sourceTree = "<group>"; };
+		D2A780C51FB935E800BE7CE9 /* RatingImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = RatingImages.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +102,12 @@
 		D2A780861FB59C1600BE7CE9 /* HJRatingViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D2A780B91FB59C3300BE7CE9 /* RatingView */,
 				D2A780871FB59C1600BE7CE9 /* AppDelegate.h */,
 				D2A780881FB59C1600BE7CE9 /* AppDelegate.m */,
 				D2A7808A1FB59C1600BE7CE9 /* ViewController.h */,
 				D2A7808B1FB59C1600BE7CE9 /* ViewController.m */,
-				D2A7808D1FB59C1600BE7CE9 /* Main.storyboard */,
 				D2A780901FB59C1600BE7CE9 /* Assets.xcassets */,
-				D2A780921FB59C1600BE7CE9 /* LaunchScreen.storyboard */,
 				D2A780951FB59C1600BE7CE9 /* Info.plist */,
 				D2A780961FB59C1600BE7CE9 /* main.m */,
 			);
@@ -130,6 +130,24 @@
 				D2A780AD1FB59C1700BE7CE9 /* Info.plist */,
 			);
 			path = HJRatingViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		D2A780B91FB59C3300BE7CE9 /* RatingView */ = {
+			isa = PBXGroup;
+			children = (
+				D2A780BE1FB5A88500BE7CE9 /* RatingImages */,
+				D2A780BA1FB59C7200BE7CE9 /* HJRatingView.h */,
+				D2A780BB1FB59C7200BE7CE9 /* HJRatingView.m */,
+			);
+			path = RatingView;
+			sourceTree = "<group>";
+		};
+		D2A780BE1FB5A88500BE7CE9 /* RatingImages */ = {
+			isa = PBXGroup;
+			children = (
+				D2A780C51FB935E800BE7CE9 /* RatingImages.xcassets */,
+			);
+			path = RatingImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +256,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2A780941FB59C1600BE7CE9 /* LaunchScreen.storyboard in Resources */,
+				D2A780C61FB935E800BE7CE9 /* RatingImages.xcassets in Resources */,
 				D2A780911FB59C1600BE7CE9 /* Assets.xcassets in Resources */,
-				D2A7808F1FB59C1600BE7CE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +285,7 @@
 				D2A7808C1FB59C1600BE7CE9 /* ViewController.m in Sources */,
 				D2A780971FB59C1600BE7CE9 /* main.m in Sources */,
 				D2A780891FB59C1600BE7CE9 /* AppDelegate.m in Sources */,
+				D2A780BC1FB59C7200BE7CE9 /* HJRatingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,25 +319,6 @@
 			targetProxy = D2A780A81FB59C1700BE7CE9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D2A7808D1FB59C1600BE7CE9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2A7808E1FB59C1600BE7CE9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D2A780921FB59C1600BE7CE9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2A780931FB59C1600BE7CE9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D2A780AE1FB59C1700BE7CE9 /* Debug */ = {
@@ -431,12 +430,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2PZMTS6D3B;
+				DEVELOPMENT_TEAM = 7BY6XUZ4WR;
 				INFOPLIST_FILE = HJRatingViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJRatingViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -445,12 +445,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2PZMTS6D3B;
+				DEVELOPMENT_TEAM = 7BY6XUZ4WR;
 				INFOPLIST_FILE = HJRatingViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJRatingViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
